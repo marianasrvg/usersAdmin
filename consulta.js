@@ -49,7 +49,7 @@ let createUserHTML = (userJson) => {
 
 let detailUser = (correo) => {
     localStorage.userDetail = correo;
-    window.location.href = "/detalle.html";
+    window.location.href = "usersAdmin/detalle.html";
 }
 
 let userDetails = (correo, cb) => {
