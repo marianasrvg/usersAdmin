@@ -92,7 +92,7 @@ let login = (event) => {
             let res = JSON.parse(xhr.response);
             console.log(res);
             localStorage.userToken = res.token;
-            window.location.href = "/P3/consulta.html";
+            window.location.href = "/consulta.html";
         }
     }
 }
