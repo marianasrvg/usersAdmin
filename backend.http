@@ -1,0 +1,15 @@
+##
+GET https://users-dasw.herokuapp.com/api/tokenDASW
+x-expediente: 702782
+
+###
+GET https://users-dasw.herokuapp.com/api/users/diego@correo.mx
+Content-Type: application/json
+x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBlZGllbnRlIjoiNzAyNzgyIiwiaWF0IjoxNTcxOTM1MDM0fQ.UvGG9XU5-ef9LjIaplRd1QlwejyBOU7JYnx24O1RK70
+x-user-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBlZGllbnRlIjoiNzAyNzgyIiwiY29ycmVvIjoibWFyaWFuYUBpdGVzby5teCIsImlpZCI6OCwiaWF0IjoxNTcyNTYwNTI1LCJleHAiOjE1NzI1NjQxMjV9.EvkkKxKAIbnk9xZEW1-UAh5cLgj-e2UQ88e0K2IczT8
+
+###
+GET https://users-dasw.herokuapp.com/api/users/
+Content-Type: application/json
+x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBlZGllbnRlIjoiNzAyNzgyIiwiaWF0IjoxNTcxOTM1MDM0fQ.UvGG9XU5-ef9LjIaplRd1QlwejyBOU7JYnx24O1RK70
+x-user-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBlZGllbnRlIjoiNzAyNzgyIiwiY29ycmVvIjoibWFyaWFuYUBpdGVzby5teCIsImlpZCI6OCwiaWF0IjoxNTcyNTYwNTI1LCJleHAiOjE1NzI1NjQxMjV9.EvkkKxKAIbnk9xZEW1-UAh5cLgj-e2UQ88e0K2IczT8
