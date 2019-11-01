@@ -48,7 +48,7 @@ if(localStorage.userDetail){
 
 let backConsultas = (event) => {
     localStorage.removeItem('userDetail');
-    window.location.href = "usersAdmin/consulta.html";
+    window.location.href = "consulta.html";
 }
 
 back.addEventListener("click", backConsultas);
